@@ -1,0 +1,404 @@
+:root {
+    --accent-purpal: #b22bb28f;
+    --accent-dark-purpal: #dc1ddc;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    /* background-color: #f0ede1; */
+  }
+  
+  section {
+    max-width: 768px;
+    margin: auto;
+  }
+  
+  .container {
+    margin: 0 auto;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+  }
+  
+  .banner-wapper img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .p-relative {
+    position: relative;
+  }
+  
+  .text-center {
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+  }
+  
+  .mt-1 {
+    margin-top: 1rem;
+  }
+  
+  .pt-5 {
+    padding-top: 5rem;
+  }
+  
+  .invitation-header {
+    padding: 1rem 0rem !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: sticky;
+    z-index: 9999;
+    /* background: #ffffffd1; */
+    /* background-color:rgb(210, 79, 123); */
+    background-color: rgb(216, 126, 216);
+  }
+  
+  .invitation-header div h1 {
+    /* color: var(--accent-dark-purpal); */
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    /* color: rgb(210, 79, 123); */
+    color:  rgb(216, 126, 216);
+
+  }
+  
+  .img-bg-left {
+    position: absolute;
+    transform: rotate(90deg);
+    top: -170px;
+    left: -65px;
+    opacity: 0.5;
+  }
+  
+  .myelementimg {
+    --animate-duration: 10s;
+  }
+  
+  .invitation-title {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .carousel-cell {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-cell div img {
+    width: 102%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .flickity-page-dots {
+    bottom: -40px !important;
+  }
+  
+  .flickity-page-dots .dot.is-selected {
+    opacity: 1;
+    /* background-color: rgb(210, 79, 123) !important; */
+    background-color: rgb(216, 126, 216) !important;
+    
+  }
+  
+  .god-img-wrapper .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .god-img-wrapper .container div {
+    text-align: center;
+  }
+  
+  .god-img-wrapper .container div h3 {
+    /* color: rgb(207, 36, 93); */
+    color: rgb(236, 80, 236);
+    margin: 0px;
+    font-family: "Great Vibes", cursive;
+    font-size: 36px;
+  }
+  
+  .god-img-wrapper .container div p {
+    /* color: rgb(210, 79, 123); */
+    color: rgb(216, 126, 216);
+    margin: 0px;
+    font-size: 18px;
+  }
+  
+  .groom-info-wrapper {
+    border: 1px solid red;
+    width: 100%;
+  }
+  
+  .gb-profile {
+    margin: auto;
+    height: 350px;
+  }
+  
+  .gb-profile img {
+    height: 100%;
+    width: 102;
+    height: 100%;
+    width: 100%;
+    /* border-radius: 5%; */
+    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
+    object-fit: cover;
+  }
+  
+  .groom-bride-info-wrapper {
+    margin: 1rem 0rem;
+    /* border: 1px solid black; */
+  }
+  
+  .name-family {
+    text-align: center;
+  }
+  
+  .name-family h3 {
+    margin: 0px;
+    /* color: rgb(207, 36, 93); */
+    color: rgb(236, 80, 236);
+    font-family: "Playwrite GB S", cursive;
+    font-size: 36px;
+  }
+  
+  .name-family p {
+    margin: 0px;
+    font-size: 12px;
+    /* color: rgb(210, 79, 123); */
+    color:rgb(216, 126, 216) ;
+    font-size: 18px;
+  }
+  
+  /* 
+  .bg-img-groom-bride {
+    position: absolute;
+    top: 40px;
+    left: -139px;
+    z-index: 2;
+    opacity: 0.2;
+  } */
+  
+  .msg-container {
+    text-align: center;
+    padding: 1rem 0rem 2rem;
+  }
+  
+  .msg-container p {
+    /* color: rgb(210, 79, 123); */
+    color: rgb(216, 126, 216);
+    font-size: 18px;
+  }
+  
+  .msg-container p:nth-child(3) {
+    font-size: 17px;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .invitation-msg-section {
+    position: relative;
+    overflow: hidden;
+    /* padding: 1rem 0rem; */
+  }
+  
+  .invitation-msg-section .container {
+    position: relative;
+    z-index: 10000;
+    padding: 0rem 0.5rem 1.5rem;
+  }
+  
+  .img-bg-msg-container {
+    position: absolute;
+    top: 0px;
+    right: -139px;
+    top: 170px;
+    opacity: 0.5;
+    z-index: 2;
+  }
+  
+  .img-bg-left-msg-container {
+    position: absolute;
+    top: 0px;
+    left: -68px;
+    top: 155px;
+    opacity: 0.5;
+    z-index: 2;
+  }
+  
+  .haldi-section {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .msg-container-haldi {
+    padding: 0rem !important;
+  }
+  
+  .msg-container-haldi p {
+    margin: auto;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0rem 0.5rem;
+    }
+  }
+  
+  /* Mustard #E3B448, Sage #CBD18F, Forest Green #663306 */
+  
+  .countdown-section .countdown {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .countdown-section .countdown li {
+    font-size: 2rem;
+    font-weight: bold;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    /* border: 1px solid red; */
+    /* background-color: rgb(210, 79, 123); */
+    /* color: rgb(216, 126, 216); */
+    background-color: rgb(216, 126, 216);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .countdown-section .countdown ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    gap: 10px;
+    margin: 0;
+  }
+  
+  .countdown-section .countdown p {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  
+  .countdown .days,
+  .countdown .hours,
+  .countdown .mins,
+  .countdown .sec {
+    font-size: 36px !important;
+    color: whitesmoke;
+  }
+  
+  .countdown-second-div {
+    text-align: center;
+  }
+  
+  .countdown-second-div p {
+    color: whitesmoke;
+    margin: 0px;
+  }
+  
+  .section-heading-eng {
+    text-align: center;
+  }
+  
+  .section-heading-eng h3 {
+    /* margin: 0px; */
+    /* color:rgb(210, 79, 123) ; */
+    color: rgb(216, 126, 216);
+  }
+  
+  .infinite-slider {
+    padding: 2rem 0rem 0rem;
+    overflow: hidden;
+  }
+  
+  .infinite-slider .slick-carousel {
+    width: auto;
+    margin: 60px 0px 50px;
+  }
+  
+  .infinite-slider .slick-carousel .slick-slide {
+    padding: 0px;
+    overflow: hidden;
+  }
+  
+  .infinite-slider .slick-carousel .slick-slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+    display: none !important;
+  }
+  
+  .slick-dots {
+    bottom: -30px;
+    display: none !important;
+  }
+  
+  .location-wrapper {
+    padding: 4rem 0rem 0rem;
+    overflow: hidden;
+  }
+  
+  .contact-us-section {
+    padding: 1rem 0rem;
+  }
+  
+  .contact-us-section .container {
+    /* background-color:rgb(210, 79, 123) ; */
+    background-color: rgb(216, 126, 216);
+    padding: 10px 0px;
+  }
+  
+  .contact-us-section .contact-us {
+    text-align: center;
+  }
+  
+  .contact-us-section .contact-us p {
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .contact-us-section .contact-us p a {
+    /* text-decoration: none; */
+    color: whitesmoke;
+  }
+  
+  .border-design-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
